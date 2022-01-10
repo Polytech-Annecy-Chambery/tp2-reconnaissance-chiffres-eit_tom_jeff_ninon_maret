@@ -114,6 +114,6 @@ class Image:
             for j in range(self.W):
                 if self.pixels[i][j]==im.pixels[i][j]:
                     Nbpixel+=1
-        return(Nbpixel/Ptot)*100
+        return(Nbpixel/Ptot)
               
 
